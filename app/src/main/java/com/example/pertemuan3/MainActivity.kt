@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -83,10 +84,13 @@ fun BasicCompose(modifier: Modifier = Modifier){
             fontWeight = FontWeight.Bold
         )
         Text(
-            text = "20220140011"
+            text = "20220140011",
+            style = TextStyle(
+                color = Color.Red,
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold
+            )
         )
-
-
 
 
     }
