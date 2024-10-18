@@ -77,6 +77,10 @@ fun BasicCompose(modifier: Modifier = Modifier){
                 color = Color.DarkGray
             )
         )
+        Text(
+            text = "Reza Azhari"
+        )
+
 
 
     }
