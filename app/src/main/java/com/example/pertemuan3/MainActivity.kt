@@ -95,6 +95,7 @@ fun BasicCompose(modifier: Modifier = Modifier){
                 fontWeight = FontWeight.Bold
             )
         )
+        Spacer(modifier = Modifier.size(10.dp))
         Image(painter = painterResource(id = R.drawable.mukagw),
             contentDescription = null,
             modifier = Modifier.size(300.dp).padding(10.dp).clip(CircleShape)
