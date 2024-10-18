@@ -65,6 +65,12 @@ fun BasicCompose(modifier: Modifier = Modifier){
                 color = Color.DarkGray
             )
         )
+        Image(painter = painterResource(id = R.drawable.umylogo),
+            contentDescription = null,
+            modifier = Modifier.size(250.dp).padding(10.dp)
+        )
+
+
     }
 }
 
