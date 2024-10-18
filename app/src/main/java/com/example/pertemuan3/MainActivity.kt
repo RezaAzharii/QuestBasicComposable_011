@@ -50,6 +50,8 @@ fun BasicCompose(modifier: Modifier = Modifier){
         modifier = Modifier.fillMaxSize().padding(15.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        Text(text = "Login"
+        )
 
     }
 }
