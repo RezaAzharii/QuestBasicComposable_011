@@ -78,7 +78,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
             )
         )
         Text(
-            text = "Reza Azhari"
+            text = "Reza Azhari",
+            fontSize = 15.sp,
+            fontWeight = FontWeight.Bold
         )
 
 
