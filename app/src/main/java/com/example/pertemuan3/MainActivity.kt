@@ -69,6 +69,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
             contentDescription = null,
             modifier = Modifier.size(250.dp).padding(10.dp)
         )
+        Text(
+            text = "Nama"
+        )
 
 
     }
