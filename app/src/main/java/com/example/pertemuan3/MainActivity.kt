@@ -56,7 +56,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
             color = Color.Black,
             fontWeight = FontWeight.Bold,
         )
-
+        Text(
+            text = "Ini adalah Halaman Login"
+        )
     }
 }
 
